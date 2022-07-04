@@ -2,6 +2,7 @@ body{
     font-family: 'Finlandica', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Stylish', sans-serif;
     margin: 0;
 }
 
@@ -37,6 +38,34 @@ h3{
     width: 70%;
 }
 
+.hire{
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: tomato;
+    padding: 10px 35px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background: linear-gradient(orange,green);
+}
+
+p{  
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.hire2{
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: tomato;
+    padding: 10px 35px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background: linear-gradient(orange,green);
+}
+
+
 .dreambig-p {
     padding-right: 20%;
 }
@@ -51,6 +80,7 @@ h3{
 .background-btm{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position: left;
 }
 
 .developer1{
@@ -64,6 +94,16 @@ h3{
 .developer1:hover{
     transform: scale(1.1);
     box-shadow: 10px 10px 40px blue;
+}
+
+#line1border{
+    border-left: 10px solid blue;
+    transition: 0.2s ease;
+}
+
+
+#line2border{
+    border-left: 10px solid red; 
 }
 
 .developer2{
