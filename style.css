@@ -1,0 +1,56 @@
+body{
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.name-color{
+    color: orangered;
+}
+
+.background-top{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.first-part{
+    padding-top: 50px;
+    padding-left: 10%;
+    width: 50%;
+}
+
+.first-part img{
+    width: 70%;
+}
+
+.dreambig-p {
+    padding-right: 20%;
+}
+
+.background-mid{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.background-btm{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.developer{
+}
