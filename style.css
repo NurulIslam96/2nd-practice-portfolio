@@ -53,5 +53,50 @@ h3{
     background-repeat: no-repeat;
 }
 
-.developer{
+.developer1{
+    width: 40%;
+    margin: 40px 5%;
+    padding: 0 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+.developer1:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 40px blue;
+}
+
+.developer2{
+    width: 40%;
+    margin: 40px 5%;
+    padding: 0 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+.developer2:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 40px red;
+}
+
+footer{
+    text-align: center;
+    color: darkgray;
+}
+
+
+.second-line1{
+    color: blue
+}
+
+.second-line2{
+    color: red;
+}
+
+.line1{
+    
+}
+
+.line2{
+
 }
